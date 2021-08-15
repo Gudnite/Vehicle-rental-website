@@ -1,0 +1,288 @@
+*
+{
+    margin:0;
+    padding:0;
+}
+
+/*---------------------------Navigation bar------------------*/
+
+#nav-bar
+{
+    position:sticky;
+    top:0;
+    z-index:10;
+}
+.navbar-logo img
+{
+    height: 70px;
+    padding-left: 20px;
+}
+.navbar-nav li
+{
+    padding: 0 20px;
+    
+}
+.navbar-nav li a
+{
+    float: right;
+    text-align: right;
+    
+}
+#nav-bar ul li a:hover 
+{
+    color:#007bff!important;
+}
+.navbar
+{
+    background: #fff;
+}
+.navbar-toggler
+{
+    border: none!important;
+}
+.nav-link
+{
+    color: #555!important;
+    font-weight: 500;
+    font-size: 19px;
+}
+/*----------------Slideshow-------------*/
+#slider
+{
+    width: 100%;
+}
+.carousel-caption
+{
+    top: 50%;
+    transform: translateY(-50%);
+    bottom: initial!important;
+}
+.carousel-caption h5
+{
+    color: #fff;
+    font-size: 42px;
+}
+
+/*---------------About-------------------*/
+
+#about
+{
+    padding-top: 20px;
+    padding-bottom: 30px;
+    color: #555;
+}
+#about .btn
+{
+    margin-top: 20px;
+    margin bottom: 30ox;
+}
+.about-content
+{
+    padding-top: 20px;
+}
+.about-logo img
+{
+    height: 300px;
+    
+}
+
+/*--------------Services-----------------*/
+#services
+{
+    background-image: linear-gradient(rgba(0,0,0,0.8),rgba(0,0,0,0.8)),url(road.jpg);
+    background-size: cover;
+    background-position: center;
+    color: #efefef!important;
+    background-attachment: fixed;
+    padding-top: 90px;
+    padding-bottom: 90px;
+    
+}
+#services h1 
+{
+    text-align: center;
+    color: #efefef!important;
+    padding-bottom: 10px;
+}
+#services h1::after
+{
+    content: '';
+    background: #007bff;
+    display: block;
+    height: 3px;
+    width: 170px;
+    margin: 20px auto 5px;
+}
+#services p
+{
+    font-size: 16px;
+    margin-top: 20px;
+    color: #ccc;
+}
+.services
+{
+    margin-top: 40px;
+}
+.icon
+{
+    margin: 30px auto 15px;
+}
+.services .col-md-3:hover
+{
+    background: #404040;
+    cursor: pointer;
+    transition: 0.7s;
+}
+h1 
+{
+    text-align: center;
+    color: #555!important;
+    padding-bottom: 10px;
+}
+h1::after
+{
+    content: '';
+    background: #007bff;
+    display: block;
+    height: 3px;
+    width: 170px;
+    margin: 20px auto 5px;
+}
+
+/*-------------------Packages---------------------*/
+#packages
+{
+    padding-top: 90px;
+    background: #efefef;
+}
+.single-package
+{
+    margin:10px auto;
+    display: inline;
+    float: left;
+    width: 100%;
+    background-color:#ffff;
+    transition:0.5s;
+    padding: 20px;
+}
+.single-package:hover
+{
+    box-shadow: 0 2px 20px #333;
+}
+.package-head
+{
+    padding: 10px 5px;
+    background-color: #2196f3;
+    display: inline;
+    float:left;
+    text-align: center;
+    width: 100%;
+}
+.package-head h2
+{
+    color: #fff;
+    font-size: 30px;
+    font-weight: bold;
+    margin-bottom: 5px;
+    padding: 5px;
+    text-transform: uppercase;
+    
+}
+.package-head p
+{
+    font-size: 25px;
+    color: #ccc;
+    font font-weight: bold;
+    line-height: 30px;
+}
+#packages span
+{
+    font-size: 15px;
+}
+.package-content
+{
+    display: inline;
+    float:left;
+    width:100%;
+    padding: 0 15px;
+}
+.package-button
+{
+    display: inline;
+    float: left;
+    padding: 15px 15px 30px;
+    text-align: center;
+    width: 100%;
+}
+.package-btn
+{
+    background-color: #2196f3;
+    font-size: 18px;
+    padding: 15px 50px;
+    border-radius: 3px;
+    display: inline-block;
+    transition: 0.5s;
+}
+.package-btn:hover
+{
+    border-color: 1px solid #fff;
+    background-color: #404040;
+}
+a
+{
+    text-decoration: none!importnat;
+    color: #fff!important;
+}
+/*---------------Banner----------------*/
+#banner
+{
+    background: linear-gradient(rgba(0,0,0,0.7),rgba(0,0,0,0.9));
+    background-size: cover;
+    background-position: center;
+    color: #fff;
+    background-attachment: fixed;
+    text-align: center;
+    padding: 40px;
+    font-family: sans-serif;
+    font-size: 30px;
+}
+
+
+/*--------------Get in touch------------*/
+#contact
+{
+    background: #efefef;
+    padding-top: 40px;
+    padding-bottom: 40px;
+    color: #777;
+}
+.contact-form
+{
+    padding: 15px;
+    
+}
+.follow
+{
+    background: #fff;
+    padding: 10px;
+    margin: 20px;
+}
+.contact-info .fa
+{
+    margin: 10px;
+    color: #007bff;
+    font-weight: bold;
+    
+}
+
+/*-----------------Footer---------------*/
+#footer
+{
+    background:  #333;
+    color: #fff;
+    padding: 12px;
+}
+
+
+
+

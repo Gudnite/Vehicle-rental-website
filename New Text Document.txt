@@ -1,0 +1,136 @@
+<!DOCTYPE>
+<html>
+<head>
+    <title>
+        login form to movietime
+    </title>
+    <style>
+    
+    body{
+
+        background-image:linear-gradient(rgba(0,0,0,0.6),rgba(0,0,0,0.6)),url(buzz1.jpg) ;
+        height: 100vh;
+        
+        background-size: cover;
+        background-position: center;
+    }
+    .login-page{
+
+        width: 360px;
+        padding: 10% 0 0;
+        margin: auto;
+    }
+
+    .form{
+
+
+        position: relative;
+        text-align: center;
+        z-index: 1;
+        max-width: 360px;
+        background: #1c8ac9;
+        margin: 0 auto 100px ;
+        padding: 45px;
+
+
+
+    }
+    
+    .form input{
+
+        font-family: "Roboto",sans-serif;
+        outline: 1;
+        background: #f2f2f2;
+        width: 100%;
+        border: 0;
+        margin: 0 0 15px;
+        padding:15px ;
+        box-sizing: border-box;
+        font-size: 14px;
+
+
+    }
+
+    .form button{
+
+        font-family: "Roboto",sans-serif;
+        outline: 0;
+        width: 100%;
+        text-transform: uppercase;
+        background: #4caf50;
+        color:#ffffff ;
+        border: 0;
+        padding: 15px;
+        font-size: 14px;
+        cursor: pointer;
+
+
+    }
+
+    .form button:hover,form button:active{
+
+        background: #43A047;
+
+    }
+    .form .me{
+
+        margin: 15px;
+        color: aliceblue;
+        font-size: 12px;
+
+    }
+
+    .form .me a{
+
+        color: #5e4caf;
+        text-decoration: none;
+    }
+
+    .form .register-form
+    {
+        display: none;
+    }
+    </style>
+</head>
+<body>
+    <div class="login-page">
+        <div class="form">
+            <form class="register-form" action="registration.php" method="POST">
+
+                <input type="text" name="User Name" placeholder="Enter your name">
+                <input type="Email" name="Email" placeholder="Enter your Email">
+                <input type="password" name="password" placeholder="Enter your password">
+                <button>Create</button>
+
+                <p class="me" >Already registerd?.<a href="#">Login</a></p>
+
+            </form>
+
+            <form class="login-form" action="validation.php" method="POST">
+
+                <input type="text" name="User Name" placeholder="Enter your User Name">
+                <input type="password"  name="password" placeholder="Enter your password">
+                <button>Login</button>
+                <p class="me">Not registered?<a href="#">Register</a></p>
+                 
+            </form>
+        </div>
+    </div>
+    <script   src='https://code.jquery.com/jquery-3.4.1.min.js'>
+    
+
+</script>
+
+
+    <script >
+    $('.me a').click(function()
+    {
+        $('form').animate({height:"toggle",opacity:"toggle"},"slow");
+    });
+    </script>
+    
+
+    
+   
+</body>
+</htmL>

@@ -1,0 +1,84 @@
+*
+{
+    margin: 0;
+    padding: 0;
+}
+body
+{
+    background-image: url(login.jpg);
+    background-size: cover;
+    background-position: center;
+    font-family: sans-serif; 
+}
+.form-box-register
+{
+    width: 400px;
+    background: rgba(0,0,0,0.8);
+    margin: 3% 50%;
+    padding: 16px 10px;
+    color: rgba(255,255,255);
+    box-shadow: 0 0 20px 2px rgba(0,0,0,0.5);
+    border-radius: 12px;
+} 
+h1
+{
+    text-align: center;
+    margin-bottom: 40px;
+}
+.input-box
+{
+    margin: 30px auto;
+    width: 80%;
+    border-bottom: 1px solid #fff;
+    padding-top: 10px;
+    padding-bottom: 5px;
+    
+}
+.input-box input
+{
+    width: 90%;
+    border: none;
+    outline: none;
+    background: transparent;
+    color: #fff;
+    font-size: 17px;
+}
+::placeholder
+{
+    color: #fff;
+}
+.para-log
+{
+    margin: 50px;
+    color: #fff;
+    font-size: 15px;
+}
+.para-log a
+{
+    margin-left: 10px;
+    color: #fff;
+}
+.para-log a:hover
+{
+    display: inline-block;
+    color: #007bff;
+}
+.register-btn
+{
+    margin: 50px auto;
+    padding: 10px 0;
+    width: 80%;
+    display: block;
+    outline: none;
+    border: 2px solid #fff;
+    cursor: pointer;
+    background: transparent;
+    color: #fff;
+    font-size: 20px;   
+}
+.register-btn:hover
+{
+    display: block;
+    color: #fff;
+    background: #007bff;
+}
